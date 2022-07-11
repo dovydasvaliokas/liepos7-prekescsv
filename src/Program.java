@@ -50,6 +50,16 @@ public class Program {
         }
         return suma;
     }
+    public static Preke listoMaximumas(List<Preke> kaina) {
+        Preke laikinasMaximumas = kaina.get(0);
+        for (Preke preke: kaina) {
+            if (kaina> laikinasMaximumas) {
+                laikinasMaximumas=kaina;
+            }
+
+            }
+        }
+        return laikinasMaximumas;
 
 
 }
