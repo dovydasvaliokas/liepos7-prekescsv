@@ -50,11 +50,11 @@ public class Program {
         }
         return suma;
     }
-    public static double listoMaximumas(List<Preke> kaina) {
-        double laikinasMaximumas = kaina.get(0);
-        for (Preke preke: kaina) {
-            if (preke.kaina> laikinasMaximumas) {
-                laikinasMaximumas=preke.kaina;
+    public static double listoMaximumas(List<Preke> prekes) {
+        double laikinasMaximumas = prekes.get(0).getKaina();
+        for (Preke preke: prekes) {
+            if (preke.getKaina() > laikinasMaximumas) {
+                laikinasMaximumas=preke.getKaina();
             }
 
             }
