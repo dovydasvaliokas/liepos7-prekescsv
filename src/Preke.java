@@ -19,6 +19,11 @@ public class Preke {
         this.kategorija = kategorija;
         this.medziaga = medziaga;
     }
+    public boolean arYraSandelyje(){
+        return kiekisSandelyje >0;
+
+    }
+
 
     public int getId() {
         return id;
